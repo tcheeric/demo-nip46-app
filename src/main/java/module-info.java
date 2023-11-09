@@ -5,4 +5,5 @@ module app {
     requires nostr.base;
 
     requires shibboleth;
+    requires si4n6r.core;
 }
