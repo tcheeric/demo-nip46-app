@@ -9,8 +9,7 @@ import nostr.si4n6r.shibboleth.Application;
 public class DemoClient {
 
     public static final PublicKey NOSTR_USER = new PublicKey("f2798137377d60e281a598a8abf1be68d89a4936d55be1a25ec238fdb2cad35c");
-    //nsec1lxajhfuzh02ylfytsqjlrjld2lhxn55gzlp3e4jh5q80ft3x56hql9tr4w
-
+   
     public static void main(String[] args) {
         var app = Application.getInstance();
         app.setUser(NOSTR_USER);
